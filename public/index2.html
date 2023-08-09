@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Izebhijie Favour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      header {
+        background-color: black;
+        /* text-align:left; */
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        left: 0;
+        top: 0;
+      }
+      header h2 {
+        color: 454545;
+        border: 8px solid white;
+        border-color: white;
+        padding: 6px 12px;
+        display: inline-block;
+        border-radius: 36px;
+      }
+      header nav {
+        width: 25%;
+        display: inline-block;
+        font-size: 24px;
+        width: 20%;
+        /* align-items: self-end; */
+      }
+      nav {
+        background-color: black;
+        padding: 20px;
+        position: sticky;
+        top: 106px;
+      }
+      nav ul {
+        white-space: nowrap;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      nav li {
+        width: 25%;
+        display: inline-block;
+        font-size: 24px;
+        width: 50%;
+        text-align: right;
+      }
+      nav li a {
+        text-decoration: none;
+        color: #4b4b4b;
+        color: aliceblue;
+      }
+      nav li a.join {
+        color: #f1c376;
+      }
+      body {
+        background-color: white;
+        font-family: "Old Standard TT", serif;
+        color: #3f4e4f;
+      }
+      .logo {
+        /* text-align: ; */
+      }
+      .img {
+        /* border:5px ; */
+        padding: 40px;
+        border-radius: 45%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .header {
+        text-align: center;
+        /* font-family: 'Caveat', cursive; */
+        font-family: "Old Standard TT", serif;
+        font-size: xx-large;
+      }
+      #head {
+        font-size: x-large;
+      }
+      .about {
+        background-color: #3f4e4f;
+        color: white;
+        font-size: large;
+      }
+      #about {
+        text-align: center;
+        padding-top: 50px;
+        font-size: x-large;
+      }
+      p {
+        text-align: center;
+        padding: 30px;
+      }
+      .resume {
+        text-decoration: none;
+        text-align: center;
+        font-size: large;
+        padding: 50px;
+      }
+      .Skills {
+        text-align: center;
+      }
+      /* .front{
+        text-align: left;
+      }
+      .back{
+        text-align: right; */
+      /* } */
+      .contact {
+        text-align: center;
+        font-size: large;
+        padding: 50px;
+        background-color: #3f4e4f;
+        color: white;
+      }
+      .contact_img {
+        padding: 10px;
+      }
+      botton {
+        background-color: #3f4e4f;
+      }
+
+      .profile {
+        background-color: #102c57;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+        color: white;
+      }
+      .profile button {
+        padding: 10px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        color: #102c57;
+      }
+      .community {
+        background-color: #102c57;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        color: white;
+      }
+      .community h3 {
+        text-align: left;
+        
+        margin-left: -100px;
+        /* margin-right: 50px; */
+      }
+      button:hover {
+        background-color: #102c57;
+        color: white;
+      }
+      button:active {
+        background-color: #102c57;
+      }
+      .community img:hover {
+        position: relative;
+        top: -2px;
+      }
+
+      .flex-container > div {
+        /* width: 33.3333%;; */
+        /* margin: 10px; */
+        /* text-align: center;
+  line-height: 75px;
+  font-size: 30px; */
+        display: flex;
+        flex-direction: row;
+      }
+
+      .stacks {
+        background-color: gray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">favour_Iz</h2>
+      <nav class="main_nav">
+        <ul>
+          <li><a href="#" class="join">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2 class="logo">favour_Iz</h2>
+      <img
+        class="img"
+        src="../asset/img2.jpg"
+        alt="Favour's headshot"
+        width="300"
+        height="300"
+      />
+
+      <h1 class="header">
+        Hi, <br />I'm Favour, <br />Full Stack Web Developer <br />
+        I build things for the web
+      </h1>
+      <p class="header" id="head">
+        I'm a full-stack web developer based in Nigeria. I build Websites and
+        Web Applications that lead to the success of the overall product.
+      </p>
+    </section>
+
+    <section class="about">
+      <h2 id="about">About Me</h2>
+      <p>
+        A seasoned Full Stack Developer with a love for crafting elegant web
+        applications. Proficient in front-end technologies like HTML, CSS, and
+        JavaScript, as well as back-end languages like Node.js and databases
+        like MongoDB. I take pride in creating user-centric and seamless digital
+        experiences. With a passion for problem-solving, I thrive on delivering
+        efficient solutions. Collaborative by nature, I enjoy working with
+        talented teams to bring ideas to life. Always on the lookout for the
+        latest tech trends, I believe continuous learning is key to staying at
+        the forefront.
+      </p>
+    </section>
+
+    <section class="stacks">
+      <div>
+        <h1>Front-end</h1>
+        <h2>Hello1</h2>
+        <h2>Hello2</h2>
+        <h2>Hello3</h2>
+      </div>
+      <div>
+        <h1>Backend</h1>
+
+        <h2>Hello1</h2>
+        <h2>Hello2</h2>
+        <h2>Hello3</h2>
+      </div>
+      <div>
+        <h1>Devops</h1>
+        <h2>Hello1</h2>
+        <h2>Hello2</h2>
+        <h2>Hello3</h2>
+      </div>
+    </section>
+
+    <section class="profile">
+      <h3>Click to view</h3>
+      <div>
+        <h3>Resume</h3>
+        <button
+          type="button"
+          onclick="window.location.href"
+          ="https://drive.google.com/file/d/1W2L-kqsH1tHfpmVC8R4V8JWnpYDAGLl0/view?usp=drivesdk"
+        >
+          Resume
+        </button>
+        <!-- <h2>Hello2</h2>
+    <h2>Hello3</h2> -->
+      </div>
+      <div>
+        <h3>GitHub Profile</h3>
+
+        <button
+          type="button"
+          onclick="window.location.href"
+          ="https://github.com/ed-favour"
+        >
+          GitHub profile
+        </button>
+      </div>
+      <div>
+        <h3>Payment API</h3>
+        <button
+          type="button"
+          onclick="window.location.href"
+          ="https://github.com/ed-favour/Payment-API"
+        >
+          Payment API
+        </button>
+      </div>
+    </section>
+    <section class="community">
+      <h3>Tech Community I volunteer in</h3>
+      <div>
+        <!-- <h3>Resume</h3> -->
+
+        <a
+          href="https://gdg.community.dev/events/details/google-gdg-abuja-presents-wtm-abuja-power-panel/"
+        >
+          <img src="../asset/wtm.jpg" alt="WTM logo" width="100" height="100" />
+        </a>
+      </div>
+      <div>
+        <!-- <h3>GitHub Profile</h3> -->
+
+        <a
+          href="https://blog.oscafrica.org/the-chronicles-of-open-source-festival-2022"
+        >
+          <img
+            src="../asset/X4M157Xqa.png"
+            alt="OSCA Africa logo"
+            width="100"
+            height="100"
+          />
+        </a>
+      </div>
+    </section>
+   
+
+    <section class="contact">
+      <h3>Contact Me</h3>
+      <h4>
+        Let's connect and explore how I can contribute to your impactful
+        projects
+      </h4>
+
+      <a href="mailto:izebhijefavouredith@gmail.com"
+        ><img
+          class="contact_img"
+          src="../asset/envelope-solid.svg"
+          alt="email address"
+          width="30"
+          height="30"
+      /></a>
+      <a href="#"
+        ><img
+          class="contact_img"
+          src="../asset/facebook.svg"
+          alt="facebook address"
+          width="30"
+          height="30"
+      /></a>
+      <a href="https://twitter.com/edith_favour?t=M2yZVBgDhUjHFcyX-vTLMQ&s=09"
+        ><img
+          class="contact_img"
+          src="../asset/x-twitter.svg"
+          alt="twitter"
+          width="30"
+          height="30"
+      /></a>
+      <a href="https://www.linkedin.com/in/favour-izebhijie"
+        ><img
+          class="contact_img"
+          src="../asset/linkedin.svg"
+          alt="linkedin profile"
+          width="30"
+          height="30"
+      /></a>
+      <a href="https://github.com/ed-favour"
+        ><img
+          class="contact_img"
+          src="../asset/github.svg"
+          alt="githib profile"
+          width="30"
+          height="30"
+      /></a>
+    </section>
+  </body>
+</html>
